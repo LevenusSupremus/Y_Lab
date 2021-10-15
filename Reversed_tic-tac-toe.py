@@ -171,7 +171,6 @@ def main():
         Then, in loop:
     >--> - Output the field;
     |    - Check, whose turn is it now - PLayer(X) / Program(O). He makes a move;
-    |    - Проверяем есть ли 5 в ряд и свободное место в поле;
     |    - Check if there 5 in a row and free space available on the filed;
     ^--< Try again, until someone will fall...
     """
