@@ -52,10 +52,7 @@ def computer_turn(board):
             if board[row][col] == "-"                                 \
                     or board[row-1][col] != ("X" or "O")              \
                     or board[row][col-1] != ("X" or "O")              \
-                    or board[row-1][col-1] != ("X" or "O")            \
-                    or board[row][col+1] != ("X" or "O")              \
-                    or board[row+1][col] != ("X" or "O")              \
-                    or board[row+1][col+1] != ("X" or "O"):
+                    or board[row-1][col-1] != ("X" or "O"):
                 possible_moves.append((row, col))
     return possible_moves[random.randrange(len(possible_moves))]
 
