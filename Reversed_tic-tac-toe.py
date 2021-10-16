@@ -31,7 +31,7 @@ def turn(player):
     The loop validates the coordinates entered by the :player:
     (Is the input a number? Are two coordinates given? Is the cell free?)
     """
-    print(f'Сейчас ходит {player}')
+    print(f'Now {player} turn')
     while True:
         turn_input = input("Choose cell (Something like '12' or '34'): ")
         if str(turn_input).isnumeric() \
